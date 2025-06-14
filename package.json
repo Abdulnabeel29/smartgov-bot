@@ -1,0 +1,19 @@
+{
+  "name": "smartgov-bot",
+  "version": "1.0.0",
+  "description": "SmartGov Bot is an AI-powered web app that helps Indian citizens discover government schemes they are eligible for — based on their personal data like age, income, caste, and location.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abdulnabeel29/smartgov-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abdulnabeel29/smartgov-bot/issues"
+  },
+  "homepage": "https://github.com/Abdulnabeel29/smartgov-bot#readme"
+}
