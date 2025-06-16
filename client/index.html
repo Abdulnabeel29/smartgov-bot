@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartGov Bot</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/a2e0bde3c2.js" crossorigin="anonymous"></script>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1 id="logo" tabindex="0" style="cursor:pointer;" onclick="window.scrollTo({top:0, behavior:'smooth'})">SmartGov Bot</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#features">Features</a>
+      <a href="#form">Form</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Find Government Schemes Made for You</h2>
+    <p>Answer a few questions and discover welfare schemes you're eligible for — quick, easy, and personalized.</p>
+    <button class="btn" onclick="document.getElementById('form').scrollIntoView({behavior:'smooth'})">Get Started</button>
+  </section>
+
+  <section class="features" id="features">
+    <div class="card">
+      <i class="fas fa-language"></i>
+      <h3>Multi-language Support</h3>
+      <p>Access information in your preferred language.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-brain"></i>
+      <h3>AI-Powered Matching</h3>
+      <p>Find schemes that fit your profile instantly.</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-mobile-alt"></i>
+      <h3>Mobile Friendly</h3>
+      <p>Works seamlessly across all devices.</p>
+    </div>
+  </section>
+
+  <section class="form-section" id="form">
+    <h2>Enter Your Details</h2>
+    <div class="input-group">
+      <label for="age">Age:</label>
+      <input type="number" id="age" required />
+    </div>
+    <div class="input-group">
+      <label for="income">Income (per year in ₹):</label>
+      <input type="number" id="income" required />
+    </div>
+    <div class="input-group">
+      <label for="caste">Caste Category:</label>
+      <select id="caste" required>
+        <option value="">Select Caste</option>
+        <option value="general">General</option>
+        <option value="obc">OBC</option>
+        <option value="sc">SC</option>
+        <option value="st">ST</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div class="input-group">
+      <label for="state">State:</label>
+      <select id="state" required>
+        <option value="">Select State</option>
+        <option value="andhra-pradesh">Andhra Pradesh</option>
+        <option value="arunachal-pradesh">Arunachal Pradesh</option>
+        <option value="assam">Assam</option>
+        <option value="bihar">Bihar</option>
+        <option value="chhattisgarh">Chhattisgarh</option>
+        <option value="goa">Goa</option>
+        <option value="gujarat">Gujarat</option>
+        <option value="haryana">Haryana</option>
+        <option value="himachal-pradesh">Himachal Pradesh</option>
+        <option value="jharkhand">Jharkhand</option>
+        <option value="karnataka">Karnataka</option>
+        <option value="kerala">Kerala</option>
+        <option value="madhya-pradesh">Madhya Pradesh</option>
+        <option value="maharashtra">Maharashtra</option>
+        <option value="manipur">Manipur</option>
+        <option value="meghalaya">Meghalaya</option>
+        <option value="mizoram">Mizoram</option>
+        <option value="nagaland">Nagaland</option>
+        <option value="odisha">Odisha</option>
+        <option value="punjab">Punjab</option>
+        <option value="rajasthan">Rajasthan</option>
+        <option value="sikkim">Sikkim</option>
+        <option value="tamil-nadu">Tamil Nadu</option>
+        <option value="telangana">Telangana</option>
+        <option value="tripura">Tripura</option>
+        <option value="uttar-pradesh">Uttar Pradesh</option>
+        <option value="uttarakhand">Uttarakhand</option>
+        <option value="west-bengal">West Bengal</option>
+        <option value="andaman-nicobar">Andaman and Nicobar</option>
+        <option value="chandigarh">Chandigarh</option>
+        <option value="dadra-nagar-haveli">Dadra and Nagar Haveli</option>
+        <option value="daman-diu">Daman and Diu</option>
+        <option value="delhi">Delhi</option>
+        <option value="jammu-kashmir">Jammu and Kashmir</option>
+        <option value="ladakh">Ladakh</option>
+        <option value="lakshadweep">Lakshadweep</option>
+        <option value="puducherry">Puducherry</option>
+      </select>
+    </div>
+    <div style="text-align:center;">
+      <button class="btn" onclick="submitDetails()">Submit</button>
+    </div>
+  </section>
+
+  <section class="scheme-results" id="results">
+    <div id="loading">
+      <i class="fas fa-spinner fa-spin"></i> Loading schemes...
+    </div>
+    <!-- Dynamic scheme cards go here -->
+  </section>
+
+  <footer>
+    <p>Created by Team SmartGov | GitHub | Contact</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
