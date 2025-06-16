@@ -47,27 +47,41 @@
   <footer>
     <p>Created by Team SmartGov | GitHub | Contact</p>
   </footer>
+<script>
+  async function sendMessage() {
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
 
-  <script>
-    function sendMessage() {
-      const name = document.getElementById('name').value.trim();
-      const email = document.getElementById('email').value.trim();
-      const message = document.getElementById('message').value.trim();
-
-      if (!name || !email || !message) {
-        alert("Please fill in all fields.");
-        return;
-      }
-
-      alert("Thank you, " + name + "! Your message has been received.");
-      // Here you can add API integration or redirect as needed
+    if (!name || !email || !message) {
+      alert("Please fill in all fields.");
+      return;
     }
 
-    document.getElementById('logo').addEventListener('keydown', function(e) {
-      if (e.key === 'Enter' || e.key === ' ') {
-        window.location.href = 'index.html';
+    try {
+      const response = await fetch('/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, message })
+      });
+
+      const data = await response.json();
+      if (data.success) {
+        alert("Thank you, " + name + "! Your message has been received.");
+        document.getElementById('name').value = '';
+        document.getElementById('email').value = '';
+        document.getElementById('message').value = '';
+      } else {
+        alert("Failed to send. Try again.");
       }
-    });
-  </script>
+    } catch (error) {
+      console.error(error);
+      alert("Failed to send. Try again.");
+    }
+  }
+</script>
+
+
+
 </body>
 </html>
