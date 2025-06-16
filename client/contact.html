@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - SmartGov Bot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a2e0bde3c2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1 id="logo" tabindex="0" style="cursor:pointer;" onclick="window.location.href='index.html'">SmartGov Bot</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="index.html#features">Features</a>
+      <a href="index.html#form">Form</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <h2>Contact Us</h2>
+    <p style="text-align:center; margin-bottom: 20px;">Have questions or feedback? We'd love to hear from you!</p>
+    
+    <div class="input-group">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" required />
+    </div>
+
+    <div class="input-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+    </div>
+
+    <div class="input-group">
+      <label for="message">Message:</label>
+      <textarea id="message" rows="5" required style="width:100%;padding:10px;border-radius:10px;border:1px solid #ccc;font-size:16px;"></textarea>
+    </div>
+
+    <div style="text-align:center;">
+      <button class="btn" onclick="sendMessage()">Send Message</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>Created by Team SmartGov | GitHub | Contact</p>
+  </footer>
+
+  <script>
+    function sendMessage() {
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      if (!name || !email || !message) {
+        alert("Please fill in all fields.");
+        return;
+      }
+
+      alert("Thank you, " + name + "! Your message has been received.");
+      // Here you can add API integration or redirect as needed
+    }
+
+    document.getElementById('logo').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        window.location.href = 'index.html';
+      }
+    });
+  </script>
+</body>
+</html>

@@ -229,7 +229,20 @@ small {
     padding: 10px;
   }
 }
+/* Add to style.css */
+html, body {
+  height: 100%;
+}
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
 footer {
   text-align: center;
   background-color: var(--primary-color);
