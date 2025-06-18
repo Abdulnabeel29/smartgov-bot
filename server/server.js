@@ -8,36 +8,38 @@ const PORT = 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// ✅ Serve static files from /Client
-app.use(express.static(path.join(__dirname, '../Client')));
+// Serve static files from /client
+app.use(express.static(path.join(__dirname, '../client')));
 
-// ✅ Save contact messages to messages.json in /Client
-app.post('/contact', (req, res) => {
-  const { name, email, message } = req.body;
-  const newMessage = {
-    name,
-    email,
-    message,
+// Save main form data to userdata.json in /client
+app.post('/userdata', (req, res) => {
+  const { age, income, caste, state } = req.body;
+  const newUserData = {
+    age,
+    income,
+    caste,
+    state,
     timestamp: new Date().toISOString()
   };
 
-  const messagesPath = path.join(__dirname, '../Client/messages.json');
+  const userDataPath = path.join(__dirname, '../client/userdata.json');
 
-  fs.readFile(messagesPath, 'utf-8', (err, data) => {
-    let messages = [];
+  fs.readFile(userDataPath, 'utf-8', (err, data) => {
+    let users = [];
     if (!err && data) {
-      messages = JSON.parse(data);
+      try {
+        users = JSON.parse(data);
+      } catch (e) {
+        users = [];
+      }
     }
 
-    messages.push(newMessage);
+    users.push(newUserData);
 
-    fs.writeFile(messagesPath, JSON.stringify(messages, null, 2), err => {
+    fs.writeFile(userDataPath, JSON.stringify(users, null, 2), err => {
       if (err) {
-        console.error("❌ Error saving message:", err);
-        return res.status(500).json({ success: false, error: "Failed to save message." });
+        return res.status(500).json({ success: false, error: "Failed to save user data." });
       }
-
-      console.log("✅ Message saved.");
       res.json({ success: true });
     });
   });

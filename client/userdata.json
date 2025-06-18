@@ -1,0 +1,65 @@
+[
+  {
+    "age": "77",
+    "income": "89",
+    "caste": "general",
+    "state": "manipur",
+    "timestamp": "2025-06-18T04:02:27.362Z"
+  },
+  {
+    "age": "21",
+    "income": "423342",
+    "caste": "obc",
+    "state": "kerala",
+    "timestamp": "2025-06-18T04:03:37.155Z"
+  },
+  {
+    "age": "34",
+    "income": "120000",
+    "caste": "sc",
+    "state": "maharashtra",
+    "timestamp": "2025-06-18T12:30:28.728Z"
+  },
+  {
+    "age": "23",
+    "income": "21000",
+    "caste": "obc",
+    "state": "nagaland",
+    "timestamp": "2025-06-18T12:33:53.890Z"
+  },
+  {
+    "age": "12",
+    "income": "1221",
+    "caste": "general",
+    "state": "maharashtra",
+    "timestamp": "2025-06-18T12:39:45.692Z"
+  },
+  {
+    "age": "21",
+    "income": "321",
+    "caste": "obc",
+    "state": "meghalaya",
+    "timestamp": "2025-06-18T12:43:48.945Z"
+  },
+  {
+    "age": "19",
+    "income": "1200000",
+    "caste": "obc",
+    "state": "telangana",
+    "timestamp": "2025-06-18T12:44:24.484Z"
+  },
+  {
+    "age": "98",
+    "income": "12000",
+    "caste": "st",
+    "state": "meghalaya",
+    "timestamp": "2025-06-18T12:47:56.068Z"
+  },
+  {
+    "age": "99",
+    "income": "13000",
+    "caste": "st",
+    "state": "mizoram",
+    "timestamp": "2025-06-18T12:48:08.833Z"
+  }
+]

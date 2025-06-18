@@ -4,18 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SmartGov Bot</title>
-
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap" rel="stylesheet" />
-
-  <!-- Font Awesome for Icons -->
-  <script src="https://kit.fontawesome.com/a2e0bde3c2.js" crossorigin="anonymous"></script>
-
-  <!-- External CSS -->
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
     <h1 id="logo" tabindex="0" style="cursor:pointer;" onclick="window.scrollTo({top:0, behavior:'smooth'})">SmartGov Bot</h1>
     <nav>
@@ -54,11 +46,11 @@
     <h2>Enter Your Details</h2>
     <div class="input-group">
       <label for="age">Age:</label>
-      <input type="number" id="age" required />
+      <input type="number" id="age" min="0" max="120" required />
     </div>
     <div class="input-group">
-      <label for="income">Income (per year in ₹):</label>
-      <input type="number" id="income" required />
+      <label for="income">Annual Income:</label>
+      <input type="number" id="income" min="0" required />
     </div>
     <div class="input-group">
       <label for="caste">Caste Category:</label>
@@ -115,28 +107,23 @@
       </select>
     </div>
     <div style="text-align:center;">
-      <button class="btn" onclick="submitDetails()">Submit</button>
+      <button class="btn" type="button" onclick="submitDetails()">Submit</button>
     </div>
   </section>
 
-  <section class="scheme-results" id="results">
-    <div id="loading">
-      <i class="fas fa-spinner fa-spin"></i> Loading schemes...
-    </div>
-    <!-- Dynamic scheme cards go here -->
-  </section>
+  <div id="results"></div>
 
-  <!-- ...existing code... -->
   <footer>
     <p>
       &copy; 2025 Team SmartGov |
-      <a href="https://github.com/Abdulnabeel29" target="_blank" style="color:inherit;text-decoration:none;">GitHub</a>
+      <a href="https://github.com/abdulnabeel29" target="_blank" style="color:inherit;text-decoration:none;">GitHub</a>
       |
       <a href="contact.html" style="color:inherit;text-decoration:none;">Contact</a>
     </p>
   </footer>
-<!-- ...existing code... -->
 
+  <!-- Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/a2e0bde3c2.js" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,2264 @@
+[
+  {
+    "name": "National Scholarship Scheme",
+    "description": "This scheme under Education sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/national-scholarship-scheme",
+    "criteria": {
+      "minAge": 5,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "sc",
+        "others",
+        "st",
+        "general"
+      ],
+      "states": [
+        "odisha",
+        "jammu-kashmir",
+        "madhya-pradesh",
+        "telangana",
+        "maharashtra",
+        "assam",
+        "tamil-nadu",
+        "chhattisgarh",
+        "punjab"
+      ]
+    }
+  },
+  {
+    "name": "Rashtriya Arogya Nidhi",
+    "description": "This scheme under Health sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/rashtriya-arogya-nidhi",
+    "criteria": {
+      "minAge": 18,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "sc"
+      ],
+      "states": [
+        "delhi",
+        "maharashtra",
+        "bihar",
+        "kerala",
+        "jammu-kashmir",
+        "assam",
+        "jharkhand"
+      ]
+    }
+  },
+  {
+    "name": "Beti Bachao Beti Padhao",
+    "description": "This scheme under Women-Child sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/beti-bachao-beti-padhao",
+    "criteria": {
+      "minAge": 30,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "general",
+        "sc",
+        "st",
+        "others"
+      ],
+      "states": [
+        "bihar",
+        "telangana",
+        "karnataka",
+        "tamil-nadu",
+        "rajasthan",
+        "assam"
+      ]
+    }
+  },
+  {
+    "name": "Rashtriya Arogya Nidhi",
+    "description": "This scheme under Health sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/rashtriya-arogya-nidhi",
+    "criteria": {
+      "minAge": 24,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "general",
+        "st",
+        "obc"
+      ],
+      "states": [
+        "telangana",
+        "gujarat",
+        "madhya-pradesh",
+        "jharkhand",
+        "punjab",
+        "karnataka",
+        "delhi",
+        "haryana",
+        "andhra-pradesh",
+        "chhattisgarh"
+      ]
+    }
+  },
+  {
+    "name": "Pre-Matric Scholarship",
+    "description": "This scheme under Education sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/pre-matric-scholarship",
+    "criteria": {
+      "minAge": 19,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "others"
+      ],
+      "states": [
+        "rajasthan",
+        "maharashtra",
+        "west-bengal",
+        "punjab",
+        "assam",
+        "kerala",
+        "haryana",
+        "delhi"
+      ]
+    }
+  },
+  {
+    "name": "Maternity Benefit Scheme",
+    "description": "This scheme under Health sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/maternity-benefit-scheme",
+    "criteria": {
+      "minAge": 38,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "st"
+      ],
+      "states": [
+        "chhattisgarh",
+        "telangana",
+        "punjab",
+        "kerala",
+        "west-bengal",
+        "bihar",
+        "madhya-pradesh",
+        "assam",
+        "uttar-pradesh",
+        "andhra-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Merit-cum-Means Scholarship",
+    "description": "This scheme under Education sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/merit-cum-means-scholarship",
+    "criteria": {
+      "minAge": 13,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "obc",
+        "general",
+        "sc",
+        "others"
+      ],
+      "states": [
+        "andhra-pradesh",
+        "jammu-kashmir",
+        "rajasthan"
+      ]
+    }
+  },
+  {
+    "name": "PM-KISAN",
+    "description": "This scheme under Agriculture sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/pm-kisan",
+    "criteria": {
+      "minAge": 60,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "st",
+        "sc",
+        "others"
+      ],
+      "states": [
+        "punjab",
+        "bihar",
+        "odisha",
+        "madhya-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Ujjwala Yojana",
+    "description": "This scheme under Women-Child sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/ujjwala-yojana",
+    "criteria": {
+      "minAge": 37,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "sc",
+        "st"
+      ],
+      "states": [
+        "jharkhand",
+        "madhya-pradesh",
+        "haryana",
+        "punjab",
+        "tamil-nadu",
+        "odisha",
+        "maharashtra",
+        "west-bengal",
+        "rajasthan",
+        "jammu-kashmir"
+      ]
+    }
+  },
+  {
+    "name": "Soil Health Card Scheme",
+    "description": "This scheme under Agriculture sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/soil-health-card-scheme",
+    "criteria": {
+      "minAge": 58,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "sc"
+      ],
+      "states": [
+        "gujarat",
+        "assam",
+        "uttar-pradesh",
+        "jammu-kashmir",
+        "haryana"
+      ]
+    }
+  },
+  {
+    "name": "Stand Up India",
+    "description": "This scheme under Employment sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/stand-up-india",
+    "criteria": {
+      "minAge": 30,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "obc",
+        "sc",
+        "general",
+        "others"
+      ],
+      "states": [
+        "jharkhand",
+        "gujarat",
+        "jammu-kashmir",
+        "delhi",
+        "maharashtra",
+        "west-bengal",
+        "haryana"
+      ]
+    }
+  },
+  {
+    "name": "PM Fasal Bima Yojana",
+    "description": "This scheme under Agriculture sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/pm-fasal-bima-yojana",
+    "criteria": {
+      "minAge": 45,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "st",
+        "general",
+        "others",
+        "sc",
+        "obc"
+      ],
+      "states": [
+        "tamil-nadu",
+        "haryana",
+        "gujarat"
+      ]
+    }
+  },
+  {
+    "name": "Soil Health Card Scheme",
+    "description": "This scheme under Agriculture sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/soil-health-card-scheme",
+    "criteria": {
+      "minAge": 29,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "general",
+        "others"
+      ],
+      "states": [
+        "karnataka",
+        "rajasthan",
+        "west-bengal",
+        "andhra-pradesh",
+        "tamil-nadu"
+      ]
+    }
+  },
+  {
+    "name": "Soil Health Card Scheme",
+    "description": "This scheme under Agriculture sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/soil-health-card-scheme",
+    "criteria": {
+      "minAge": 19,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "sc",
+        "general",
+        "st",
+        "others",
+        "obc"
+      ],
+      "states": [
+        "gujarat",
+        "karnataka",
+        "haryana",
+        "maharashtra",
+        "jharkhand",
+        "andhra-pradesh",
+        "west-bengal",
+        "rajasthan",
+        "madhya-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Rashtriya Arogya Nidhi",
+    "description": "This scheme under Health sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/rashtriya-arogya-nidhi",
+    "criteria": {
+      "minAge": 25,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "sc",
+        "general"
+      ],
+      "states": [
+        "jammu-kashmir",
+        "rajasthan",
+        "tamil-nadu"
+      ]
+    }
+  },
+  {
+    "name": "AICTE Pragati Yojana",
+    "description": "This scheme under Education sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/aicte-pragati-yojana",
+    "criteria": {
+      "minAge": 23,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "st",
+        "general"
+      ],
+      "states": [
+        "bihar",
+        "karnataka",
+        "delhi"
+      ]
+    }
+  },
+  {
+    "name": "AICTE Pragati Yojana",
+    "description": "This scheme under Education sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/aicte-pragati-yojana",
+    "criteria": {
+      "minAge": 13,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "others",
+        "general",
+        "st",
+        "sc"
+      ],
+      "states": [
+        "haryana",
+        "telangana",
+        "tamil-nadu",
+        "maharashtra"
+      ]
+    }
+  },
+  {
+    "name": "Skill India Mission",
+    "description": "This scheme under Employment sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/skill-india-mission",
+    "criteria": {
+      "minAge": 28,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "st",
+        "obc",
+        "general",
+        "sc"
+      ],
+      "states": [
+        "maharashtra",
+        "karnataka",
+        "andhra-pradesh",
+        "chhattisgarh",
+        "delhi",
+        "punjab",
+        "odisha"
+      ]
+    }
+  },
+  {
+    "name": "PM Fasal Bima Yojana",
+    "description": "This scheme under Agriculture sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/pm-fasal-bima-yojana",
+    "criteria": {
+      "minAge": 57,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "obc",
+        "st",
+        "others"
+      ],
+      "states": [
+        "uttar-pradesh",
+        "telangana",
+        "bihar",
+        "rajasthan",
+        "karnataka",
+        "west-bengal",
+        "maharashtra",
+        "madhya-pradesh",
+        "odisha"
+      ]
+    }
+  },
+  {
+    "name": "Startup India",
+    "description": "This scheme under Employment sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/startup-india",
+    "criteria": {
+      "minAge": 56,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "obc",
+        "general",
+        "sc"
+      ],
+      "states": [
+        "punjab",
+        "gujarat",
+        "chhattisgarh",
+        "odisha",
+        "tamil-nadu",
+        "assam",
+        "telangana",
+        "rajasthan",
+        "andhra-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "PM-KISAN",
+    "description": "This scheme under Agriculture sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/pm-kisan",
+    "criteria": {
+      "minAge": 26,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "general",
+        "obc"
+      ],
+      "states": [
+        "delhi",
+        "madhya-pradesh",
+        "bihar",
+        "west-bengal",
+        "maharashtra",
+        "uttar-pradesh",
+        "tamil-nadu",
+        "kerala",
+        "jammu-kashmir"
+      ]
+    }
+  },
+  {
+    "name": "Rashtriya Arogya Nidhi",
+    "description": "This scheme under Health sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/rashtriya-arogya-nidhi",
+    "criteria": {
+      "minAge": 60,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "general"
+      ],
+      "states": [
+        "jharkhand",
+        "kerala",
+        "gujarat",
+        "jammu-kashmir",
+        "karnataka",
+        "maharashtra"
+      ]
+    }
+  },
+  {
+    "name": "Ladli Scheme",
+    "description": "This scheme under Women-Child sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/ladli-scheme",
+    "criteria": {
+      "minAge": 24,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "general"
+      ],
+      "states": [
+        "telangana",
+        "tamil-nadu",
+        "chhattisgarh",
+        "uttar-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Startup India",
+    "description": "This scheme under Employment sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/startup-india",
+    "criteria": {
+      "minAge": 27,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "sc",
+        "general",
+        "st",
+        "others",
+        "obc"
+      ],
+      "states": [
+        "assam",
+        "chhattisgarh",
+        "tamil-nadu",
+        "gujarat",
+        "delhi",
+        "rajasthan",
+        "punjab",
+        "maharashtra"
+      ]
+    }
+  },
+  {
+    "name": "PMEGP",
+    "description": "This scheme under Employment sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/pmegp",
+    "criteria": {
+      "minAge": 19,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "st",
+        "others"
+      ],
+      "states": [
+        "delhi",
+        "bihar",
+        "maharashtra",
+        "west-bengal",
+        "gujarat",
+        "jharkhand",
+        "uttar-pradesh",
+        "kerala"
+      ]
+    }
+  },
+  {
+    "name": "Stand Up India",
+    "description": "This scheme under Employment sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/stand-up-india",
+    "criteria": {
+      "minAge": 51,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "sc",
+        "others",
+        "st",
+        "general"
+      ],
+      "states": [
+        "uttar-pradesh",
+        "jharkhand",
+        "odisha",
+        "west-bengal",
+        "haryana",
+        "jammu-kashmir",
+        "assam"
+      ]
+    }
+  },
+  {
+    "name": "Ujjwala Yojana",
+    "description": "This scheme under Women-Child sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/ujjwala-yojana",
+    "criteria": {
+      "minAge": 55,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "obc",
+        "others",
+        "st",
+        "sc"
+      ],
+      "states": [
+        "karnataka",
+        "uttar-pradesh",
+        "delhi",
+        "assam",
+        "jharkhand"
+      ]
+    }
+  },
+  {
+    "name": "National Scholarship Scheme",
+    "description": "This scheme under Education sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/national-scholarship-scheme",
+    "criteria": {
+      "minAge": 10,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "st",
+        "general",
+        "sc",
+        "others"
+      ],
+      "states": [
+        "maharashtra",
+        "delhi",
+        "west-bengal",
+        "assam"
+      ]
+    }
+  },
+  {
+    "name": "MGNREGA",
+    "description": "This scheme under Employment sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/mgnrega",
+    "criteria": {
+      "minAge": 28,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "obc",
+        "others"
+      ],
+      "states": [
+        "delhi",
+        "tamil-nadu",
+        "bihar"
+      ]
+    }
+  },
+  {
+    "name": "Rashtriya Krishi Vikas Yojana",
+    "description": "This scheme under Agriculture sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/rashtriya-krishi-vikas-yojana",
+    "criteria": {
+      "minAge": 60,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "others",
+        "obc",
+        "st",
+        "general"
+      ],
+      "states": [
+        "west-bengal",
+        "delhi",
+        "tamil-nadu",
+        "jharkhand"
+      ]
+    }
+  },
+  {
+    "name": "Stand Up India",
+    "description": "This scheme under Employment sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/stand-up-india",
+    "criteria": {
+      "minAge": 38,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "general",
+        "st",
+        "obc",
+        "others"
+      ],
+      "states": [
+        "assam",
+        "delhi",
+        "madhya-pradesh",
+        "punjab",
+        "west-bengal"
+      ]
+    }
+  },
+  {
+    "name": "Soil Health Card Scheme",
+    "description": "This scheme under Agriculture sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/soil-health-card-scheme",
+    "criteria": {
+      "minAge": 34,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "obc",
+        "general",
+        "sc"
+      ],
+      "states": [
+        "andhra-pradesh",
+        "delhi",
+        "jharkhand",
+        "karnataka",
+        "haryana",
+        "odisha",
+        "madhya-pradesh",
+        "rajasthan",
+        "punjab",
+        "maharashtra"
+      ]
+    }
+  },
+  {
+    "name": "Soil Health Card Scheme",
+    "description": "This scheme under Agriculture sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/soil-health-card-scheme",
+    "criteria": {
+      "minAge": 27,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "general",
+        "sc",
+        "st",
+        "others"
+      ],
+      "states": [
+        "chhattisgarh",
+        "madhya-pradesh",
+        "bihar",
+        "haryana",
+        "punjab"
+      ]
+    }
+  },
+  {
+    "name": "Sukanya Samriddhi Yojana",
+    "description": "This scheme under Women-Child sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/sukanya-samriddhi-yojana",
+    "criteria": {
+      "minAge": 34,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "sc",
+        "st",
+        "general",
+        "obc"
+      ],
+      "states": [
+        "madhya-pradesh",
+        "maharashtra",
+        "andhra-pradesh",
+        "chhattisgarh",
+        "bihar"
+      ]
+    }
+  },
+  {
+    "name": "PMEGP",
+    "description": "This scheme under Employment sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/pmegp",
+    "criteria": {
+      "minAge": 48,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "others",
+        "sc",
+        "general",
+        "obc",
+        "st"
+      ],
+      "states": [
+        "assam",
+        "maharashtra",
+        "tamil-nadu",
+        "haryana",
+        "bihar"
+      ]
+    }
+  },
+  {
+    "name": "Maternity Benefit Scheme",
+    "description": "This scheme under Health sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/maternity-benefit-scheme",
+    "criteria": {
+      "minAge": 58,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "sc",
+        "obc",
+        "general"
+      ],
+      "states": [
+        "kerala",
+        "madhya-pradesh",
+        "delhi",
+        "gujarat",
+        "rajasthan",
+        "tamil-nadu"
+      ]
+    }
+  },
+  {
+    "name": "Integrated Child Development Services",
+    "description": "This scheme under Women-Child sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/integrated-child-development-services",
+    "criteria": {
+      "minAge": 52,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "general"
+      ],
+      "states": [
+        "jammu-kashmir",
+        "kerala",
+        "tamil-nadu"
+      ]
+    }
+  },
+  {
+    "name": "PM-KISAN",
+    "description": "This scheme under Agriculture sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/pm-kisan",
+    "criteria": {
+      "minAge": 60,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "general",
+        "others",
+        "obc",
+        "st"
+      ],
+      "states": [
+        "gujarat",
+        "uttar-pradesh",
+        "karnataka",
+        "haryana",
+        "rajasthan",
+        "tamil-nadu"
+      ]
+    }
+  },
+  {
+    "name": "Sukanya Samriddhi Yojana",
+    "description": "This scheme under Women-Child sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/sukanya-samriddhi-yojana",
+    "criteria": {
+      "minAge": 42,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "sc",
+        "obc",
+        "general",
+        "others"
+      ],
+      "states": [
+        "assam",
+        "tamil-nadu",
+        "gujarat",
+        "karnataka",
+        "rajasthan",
+        "odisha",
+        "andhra-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Merit-cum-Means Scholarship",
+    "description": "This scheme under Education sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/merit-cum-means-scholarship",
+    "criteria": {
+      "minAge": 22,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "st",
+        "others",
+        "sc",
+        "obc"
+      ],
+      "states": [
+        "uttar-pradesh",
+        "gujarat",
+        "delhi"
+      ]
+    }
+  },
+  {
+    "name": "Skill India Mission",
+    "description": "This scheme under Employment sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/skill-india-mission",
+    "criteria": {
+      "minAge": 36,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "others"
+      ],
+      "states": [
+        "odisha",
+        "karnataka",
+        "jharkhand",
+        "uttar-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "PMEGP",
+    "description": "This scheme under Employment sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/pmegp",
+    "criteria": {
+      "minAge": 59,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "obc",
+        "st",
+        "sc",
+        "others"
+      ],
+      "states": [
+        "bihar",
+        "tamil-nadu",
+        "punjab",
+        "haryana",
+        "telangana",
+        "jammu-kashmir"
+      ]
+    }
+  },
+  {
+    "name": "Pre-Matric Scholarship",
+    "description": "This scheme under Education sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/pre-matric-scholarship",
+    "criteria": {
+      "minAge": 12,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "st",
+        "obc",
+        "general",
+        "others"
+      ],
+      "states": [
+        "maharashtra",
+        "delhi",
+        "rajasthan",
+        "tamil-nadu",
+        "telangana",
+        "gujarat",
+        "jharkhand",
+        "bihar",
+        "uttar-pradesh",
+        "haryana"
+      ]
+    }
+  },
+  {
+    "name": "Rashtriya Arogya Nidhi",
+    "description": "This scheme under Health sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/rashtriya-arogya-nidhi",
+    "criteria": {
+      "minAge": 18,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "general",
+        "obc",
+        "sc",
+        "others",
+        "st"
+      ],
+      "states": [
+        "telangana",
+        "andhra-pradesh",
+        "jammu-kashmir",
+        "punjab",
+        "assam"
+      ]
+    }
+  },
+  {
+    "name": "Post-Matric Scholarship",
+    "description": "This scheme under Education sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/post-matric-scholarship",
+    "criteria": {
+      "minAge": 23,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "others",
+        "obc",
+        "general",
+        "st",
+        "sc"
+      ],
+      "states": [
+        "punjab",
+        "haryana",
+        "uttar-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Rashtriya Arogya Nidhi",
+    "description": "This scheme under Health sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/rashtriya-arogya-nidhi",
+    "criteria": {
+      "minAge": 28,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "general",
+        "obc",
+        "sc",
+        "st"
+      ],
+      "states": [
+        "jharkhand",
+        "bihar",
+        "gujarat",
+        "maharashtra",
+        "kerala",
+        "uttar-pradesh",
+        "odisha",
+        "telangana"
+      ]
+    }
+  },
+  {
+    "name": "Janani Suraksha Yojana",
+    "description": "This scheme under Health sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/janani-suraksha-yojana",
+    "criteria": {
+      "minAge": 44,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "obc",
+        "sc",
+        "general",
+        "st",
+        "others"
+      ],
+      "states": [
+        "punjab",
+        "delhi",
+        "kerala",
+        "haryana",
+        "telangana"
+      ]
+    }
+  },
+  {
+    "name": "Kisan Credit Card",
+    "description": "This scheme under Agriculture sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/kisan-credit-card",
+    "criteria": {
+      "minAge": 21,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "obc",
+        "sc",
+        "st",
+        "general",
+        "others"
+      ],
+      "states": [
+        "andhra-pradesh",
+        "assam",
+        "rajasthan",
+        "jammu-kashmir",
+        "kerala",
+        "punjab",
+        "maharashtra",
+        "odisha",
+        "madhya-pradesh",
+        "delhi"
+      ]
+    }
+  },
+  {
+    "name": "Ladli Scheme",
+    "description": "This scheme under Women-Child sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/ladli-scheme",
+    "criteria": {
+      "minAge": 37,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "st",
+        "sc",
+        "general"
+      ],
+      "states": [
+        "chhattisgarh",
+        "assam",
+        "odisha",
+        "haryana",
+        "jharkhand",
+        "madhya-pradesh",
+        "tamil-nadu",
+        "bihar"
+      ]
+    }
+  },
+  {
+    "name": "Skill India Mission",
+    "description": "This scheme under Employment sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/skill-india-mission",
+    "criteria": {
+      "minAge": 44,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "general"
+      ],
+      "states": [
+        "jharkhand",
+        "assam",
+        "haryana",
+        "andhra-pradesh",
+        "rajasthan",
+        "kerala",
+        "tamil-nadu"
+      ]
+    }
+  },
+  {
+    "name": "Stand Up India",
+    "description": "This scheme under Employment sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/stand-up-india",
+    "criteria": {
+      "minAge": 45,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "others",
+        "st",
+        "obc"
+      ],
+      "states": [
+        "madhya-pradesh",
+        "punjab",
+        "delhi",
+        "tamil-nadu",
+        "assam",
+        "rajasthan",
+        "karnataka",
+        "maharashtra",
+        "west-bengal"
+      ]
+    }
+  },
+  {
+    "name": "Sukanya Samriddhi Yojana",
+    "description": "This scheme under Women-Child sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/sukanya-samriddhi-yojana",
+    "criteria": {
+      "minAge": 22,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "others",
+        "obc"
+      ],
+      "states": [
+        "andhra-pradesh",
+        "karnataka",
+        "tamil-nadu",
+        "maharashtra",
+        "rajasthan",
+        "jammu-kashmir",
+        "jharkhand"
+      ]
+    }
+  },
+  {
+    "name": "AICTE Pragati Yojana",
+    "description": "This scheme under Education sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/aicte-pragati-yojana",
+    "criteria": {
+      "minAge": 13,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "st"
+      ],
+      "states": [
+        "odisha",
+        "delhi",
+        "haryana",
+        "jammu-kashmir",
+        "andhra-pradesh",
+        "punjab",
+        "assam"
+      ]
+    }
+  },
+  {
+    "name": "PMEGP",
+    "description": "This scheme under Employment sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/pmegp",
+    "criteria": {
+      "minAge": 43,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "general",
+        "others",
+        "sc",
+        "obc",
+        "st"
+      ],
+      "states": [
+        "maharashtra",
+        "karnataka",
+        "punjab",
+        "rajasthan"
+      ]
+    }
+  },
+  {
+    "name": "PM-KISAN",
+    "description": "This scheme under Agriculture sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/pm-kisan",
+    "criteria": {
+      "minAge": 43,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "general",
+        "sc",
+        "st"
+      ],
+      "states": [
+        "bihar",
+        "uttar-pradesh",
+        "jammu-kashmir",
+        "andhra-pradesh",
+        "rajasthan",
+        "maharashtra"
+      ]
+    }
+  },
+  {
+    "name": "Ayushman Bharat",
+    "description": "This scheme under Health sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/ayushman-bharat",
+    "criteria": {
+      "minAge": 23,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "obc",
+        "st",
+        "sc"
+      ],
+      "states": [
+        "jharkhand",
+        "karnataka",
+        "haryana",
+        "bihar",
+        "jammu-kashmir",
+        "gujarat",
+        "chhattisgarh",
+        "rajasthan",
+        "west-bengal"
+      ]
+    }
+  },
+  {
+    "name": "Beti Bachao Beti Padhao",
+    "description": "This scheme under Women-Child sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/beti-bachao-beti-padhao",
+    "criteria": {
+      "minAge": 56,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "obc",
+        "sc",
+        "general"
+      ],
+      "states": [
+        "bihar",
+        "delhi",
+        "maharashtra",
+        "haryana",
+        "gujarat",
+        "tamil-nadu",
+        "punjab",
+        "chhattisgarh"
+      ]
+    }
+  },
+  {
+    "name": "PMEGP",
+    "description": "This scheme under Employment sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/pmegp",
+    "criteria": {
+      "minAge": 44,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "obc",
+        "sc",
+        "st",
+        "general",
+        "others"
+      ],
+      "states": [
+        "assam",
+        "karnataka",
+        "jharkhand",
+        "andhra-pradesh",
+        "chhattisgarh",
+        "telangana",
+        "madhya-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Sukanya Samriddhi Yojana",
+    "description": "This scheme under Women-Child sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/sukanya-samriddhi-yojana",
+    "criteria": {
+      "minAge": 49,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "st",
+        "sc"
+      ],
+      "states": [
+        "delhi",
+        "haryana",
+        "andhra-pradesh",
+        "tamil-nadu",
+        "kerala",
+        "uttar-pradesh",
+        "rajasthan",
+        "jharkhand",
+        "odisha"
+      ]
+    }
+  },
+  {
+    "name": "PM-KISAN",
+    "description": "This scheme under Agriculture sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/pm-kisan",
+    "criteria": {
+      "minAge": 54,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "others",
+        "obc",
+        "general",
+        "st",
+        "sc"
+      ],
+      "states": [
+        "west-bengal",
+        "tamil-nadu",
+        "telangana",
+        "odisha"
+      ]
+    }
+  },
+  {
+    "name": "Sukanya Samriddhi Yojana",
+    "description": "This scheme under Women-Child sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/sukanya-samriddhi-yojana",
+    "criteria": {
+      "minAge": 42,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "sc",
+        "general"
+      ],
+      "states": [
+        "haryana",
+        "maharashtra",
+        "karnataka",
+        "kerala",
+        "chhattisgarh",
+        "odisha",
+        "delhi",
+        "jammu-kashmir",
+        "bihar",
+        "rajasthan"
+      ]
+    }
+  },
+  {
+    "name": "Kisan Credit Card",
+    "description": "This scheme under Agriculture sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/kisan-credit-card",
+    "criteria": {
+      "minAge": 18,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "st",
+        "others",
+        "sc"
+      ],
+      "states": [
+        "chhattisgarh",
+        "delhi",
+        "jammu-kashmir",
+        "madhya-pradesh",
+        "tamil-nadu",
+        "telangana",
+        "assam",
+        "bihar",
+        "odisha"
+      ]
+    }
+  },
+  {
+    "name": "Kisan Credit Card",
+    "description": "This scheme under Agriculture sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/kisan-credit-card",
+    "criteria": {
+      "minAge": 18,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "st",
+        "obc",
+        "others"
+      ],
+      "states": [
+        "bihar",
+        "assam",
+        "karnataka",
+        "gujarat",
+        "uttar-pradesh",
+        "jammu-kashmir",
+        "madhya-pradesh",
+        "jharkhand",
+        "maharashtra",
+        "tamil-nadu"
+      ]
+    }
+  },
+  {
+    "name": "Sukanya Samriddhi Yojana",
+    "description": "This scheme under Women-Child sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/sukanya-samriddhi-yojana",
+    "criteria": {
+      "minAge": 23,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "general",
+        "sc",
+        "st",
+        "obc",
+        "others"
+      ],
+      "states": [
+        "jammu-kashmir",
+        "uttar-pradesh",
+        "west-bengal",
+        "bihar",
+        "tamil-nadu"
+      ]
+    }
+  },
+  {
+    "name": "Rashtriya Krishi Vikas Yojana",
+    "description": "This scheme under Agriculture sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/rashtriya-krishi-vikas-yojana",
+    "criteria": {
+      "minAge": 48,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "general",
+        "st",
+        "sc",
+        "others",
+        "obc"
+      ],
+      "states": [
+        "tamil-nadu",
+        "odisha",
+        "west-bengal",
+        "assam",
+        "haryana",
+        "karnataka",
+        "kerala",
+        "chhattisgarh"
+      ]
+    }
+  },
+  {
+    "name": "Janani Suraksha Yojana",
+    "description": "This scheme under Health sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/janani-suraksha-yojana",
+    "criteria": {
+      "minAge": 53,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "st"
+      ],
+      "states": [
+        "assam",
+        "telangana",
+        "rajasthan",
+        "delhi",
+        "uttar-pradesh",
+        "tamil-nadu",
+        "karnataka"
+      ]
+    }
+  },
+  {
+    "name": "Soil Health Card Scheme",
+    "description": "This scheme under Agriculture sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/soil-health-card-scheme",
+    "criteria": {
+      "minAge": 19,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "sc"
+      ],
+      "states": [
+        "uttar-pradesh",
+        "haryana",
+        "punjab",
+        "andhra-pradesh",
+        "bihar",
+        "kerala",
+        "jharkhand"
+      ]
+    }
+  },
+  {
+    "name": "Universal Immunization Programme",
+    "description": "This scheme under Health sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/universal-immunization-programme",
+    "criteria": {
+      "minAge": 37,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "general"
+      ],
+      "states": [
+        "kerala",
+        "gujarat",
+        "chhattisgarh",
+        "rajasthan",
+        "punjab",
+        "andhra-pradesh",
+        "uttar-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Soil Health Card Scheme",
+    "description": "This scheme under Agriculture sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/soil-health-card-scheme",
+    "criteria": {
+      "minAge": 33,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "obc",
+        "st",
+        "sc",
+        "general",
+        "others"
+      ],
+      "states": [
+        "andhra-pradesh",
+        "gujarat",
+        "chhattisgarh"
+      ]
+    }
+  },
+  {
+    "name": "Rashtriya Arogya Nidhi",
+    "description": "This scheme under Health sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/rashtriya-arogya-nidhi",
+    "criteria": {
+      "minAge": 42,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "general"
+      ],
+      "states": [
+        "karnataka",
+        "jammu-kashmir",
+        "delhi"
+      ]
+    }
+  },
+  {
+    "name": "PM-KISAN",
+    "description": "This scheme under Agriculture sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/pm-kisan",
+    "criteria": {
+      "minAge": 55,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "sc"
+      ],
+      "states": [
+        "rajasthan",
+        "delhi",
+        "tamil-nadu",
+        "karnataka",
+        "punjab",
+        "telangana",
+        "gujarat",
+        "jammu-kashmir",
+        "bihar",
+        "madhya-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Universal Immunization Programme",
+    "description": "This scheme under Health sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/universal-immunization-programme",
+    "criteria": {
+      "minAge": 27,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "general",
+        "obc"
+      ],
+      "states": [
+        "andhra-pradesh",
+        "jammu-kashmir",
+        "jharkhand",
+        "tamil-nadu",
+        "haryana",
+        "punjab",
+        "chhattisgarh",
+        "rajasthan",
+        "bihar"
+      ]
+    }
+  },
+  {
+    "name": "Rashtriya Arogya Nidhi",
+    "description": "This scheme under Health sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/rashtriya-arogya-nidhi",
+    "criteria": {
+      "minAge": 40,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "others"
+      ],
+      "states": [
+        "madhya-pradesh",
+        "odisha",
+        "west-bengal",
+        "bihar",
+        "telangana",
+        "andhra-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Ladli Scheme",
+    "description": "This scheme under Women-Child sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/ladli-scheme",
+    "criteria": {
+      "minAge": 46,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "sc",
+        "others",
+        "general"
+      ],
+      "states": [
+        "haryana",
+        "tamil-nadu",
+        "uttar-pradesh",
+        "maharashtra",
+        "karnataka",
+        "andhra-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Ladli Scheme",
+    "description": "This scheme under Women-Child sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/ladli-scheme",
+    "criteria": {
+      "minAge": 20,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "others",
+        "sc",
+        "obc"
+      ],
+      "states": [
+        "punjab",
+        "bihar",
+        "delhi",
+        "assam",
+        "karnataka",
+        "gujarat",
+        "chhattisgarh",
+        "madhya-pradesh",
+        "tamil-nadu"
+      ]
+    }
+  },
+  {
+    "name": "Kisan Credit Card",
+    "description": "This scheme under Agriculture sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/kisan-credit-card",
+    "criteria": {
+      "minAge": 50,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "sc",
+        "general",
+        "others"
+      ],
+      "states": [
+        "assam",
+        "punjab",
+        "kerala",
+        "odisha",
+        "chhattisgarh",
+        "karnataka",
+        "telangana",
+        "tamil-nadu"
+      ]
+    }
+  },
+  {
+    "name": "National Scholarship Scheme",
+    "description": "This scheme under Education sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/national-scholarship-scheme",
+    "criteria": {
+      "minAge": 9,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "st",
+        "general",
+        "sc",
+        "others",
+        "obc"
+      ],
+      "states": [
+        "madhya-pradesh",
+        "chhattisgarh",
+        "rajasthan"
+      ]
+    }
+  },
+  {
+    "name": "Startup India",
+    "description": "This scheme under Employment sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/startup-india",
+    "criteria": {
+      "minAge": 50,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "obc",
+        "sc",
+        "st"
+      ],
+      "states": [
+        "andhra-pradesh",
+        "odisha",
+        "maharashtra",
+        "uttar-pradesh",
+        "bihar",
+        "west-bengal",
+        "punjab"
+      ]
+    }
+  },
+  {
+    "name": "PM Fasal Bima Yojana",
+    "description": "This scheme under Agriculture sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/pm-fasal-bima-yojana",
+    "criteria": {
+      "minAge": 39,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "sc",
+        "st",
+        "others",
+        "obc",
+        "general"
+      ],
+      "states": [
+        "haryana",
+        "jammu-kashmir",
+        "bihar",
+        "karnataka",
+        "tamil-nadu",
+        "west-bengal"
+      ]
+    }
+  },
+  {
+    "name": "Post-Matric Scholarship",
+    "description": "This scheme under Education sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/post-matric-scholarship",
+    "criteria": {
+      "minAge": 17,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "others",
+        "general",
+        "obc",
+        "st",
+        "sc"
+      ],
+      "states": [
+        "west-bengal",
+        "andhra-pradesh",
+        "kerala"
+      ]
+    }
+  },
+  {
+    "name": "PM Fasal Bima Yojana",
+    "description": "This scheme under Agriculture sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/pm-fasal-bima-yojana",
+    "criteria": {
+      "minAge": 58,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "general",
+        "others",
+        "st",
+        "obc"
+      ],
+      "states": [
+        "jammu-kashmir",
+        "odisha",
+        "haryana",
+        "punjab",
+        "maharashtra"
+      ]
+    }
+  },
+  {
+    "name": "Stand Up India",
+    "description": "This scheme under Employment sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/stand-up-india",
+    "criteria": {
+      "minAge": 23,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "st"
+      ],
+      "states": [
+        "uttar-pradesh",
+        "jammu-kashmir",
+        "tamil-nadu",
+        "punjab",
+        "west-bengal"
+      ]
+    }
+  },
+  {
+    "name": "Post-Matric Scholarship",
+    "description": "This scheme under Education sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/post-matric-scholarship",
+    "criteria": {
+      "minAge": 5,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "others",
+        "sc"
+      ],
+      "states": [
+        "andhra-pradesh",
+        "odisha",
+        "west-bengal",
+        "chhattisgarh",
+        "bihar",
+        "telangana",
+        "uttar-pradesh",
+        "haryana",
+        "madhya-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Maternity Benefit Scheme",
+    "description": "This scheme under Health sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/maternity-benefit-scheme",
+    "criteria": {
+      "minAge": 34,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "sc",
+        "others",
+        "general"
+      ],
+      "states": [
+        "bihar",
+        "jharkhand",
+        "assam",
+        "telangana",
+        "rajasthan",
+        "uttar-pradesh",
+        "madhya-pradesh",
+        "odisha",
+        "chhattisgarh"
+      ]
+    }
+  },
+  {
+    "name": "Post-Matric Scholarship",
+    "description": "This scheme under Education sector aims to support urban individuals.",
+    "link": "https://gov.in/schemes/post-matric-scholarship",
+    "criteria": {
+      "minAge": 19,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "obc",
+        "st",
+        "others",
+        "general"
+      ],
+      "states": [
+        "jammu-kashmir",
+        "bihar",
+        "rajasthan",
+        "madhya-pradesh",
+        "gujarat"
+      ]
+    }
+  },
+  {
+    "name": "PM-KISAN",
+    "description": "This scheme under Agriculture sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/pm-kisan",
+    "criteria": {
+      "minAge": 53,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "obc",
+        "sc",
+        "st",
+        "others"
+      ],
+      "states": [
+        "punjab",
+        "chhattisgarh",
+        "jammu-kashmir",
+        "andhra-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Janani Suraksha Yojana",
+    "description": "This scheme under Health sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/janani-suraksha-yojana",
+    "criteria": {
+      "minAge": 20,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "others",
+        "sc"
+      ],
+      "states": [
+        "jammu-kashmir",
+        "west-bengal",
+        "kerala",
+        "punjab",
+        "tamil-nadu",
+        "bihar",
+        "uttar-pradesh",
+        "telangana"
+      ]
+    }
+  },
+  {
+    "name": "Startup India",
+    "description": "This scheme under Employment sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/startup-india",
+    "criteria": {
+      "minAge": 58,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "sc",
+        "general",
+        "st",
+        "others"
+      ],
+      "states": [
+        "bihar",
+        "rajasthan",
+        "uttar-pradesh",
+        "jharkhand",
+        "delhi",
+        "haryana",
+        "assam",
+        "andhra-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Ladli Scheme",
+    "description": "This scheme under Women-Child sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/ladli-scheme",
+    "criteria": {
+      "minAge": 47,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "st",
+        "obc",
+        "others",
+        "general",
+        "sc"
+      ],
+      "states": [
+        "andhra-pradesh",
+        "rajasthan",
+        "west-bengal",
+        "odisha",
+        "kerala",
+        "haryana",
+        "uttar-pradesh",
+        "gujarat",
+        "karnataka",
+        "telangana"
+      ]
+    }
+  },
+  {
+    "name": "Soil Health Card Scheme",
+    "description": "This scheme under Agriculture sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/soil-health-card-scheme",
+    "criteria": {
+      "minAge": 59,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "st",
+        "others",
+        "general",
+        "obc"
+      ],
+      "states": [
+        "madhya-pradesh",
+        "jammu-kashmir",
+        "bihar",
+        "andhra-pradesh"
+      ]
+    }
+  },
+  {
+    "name": "Pre-Matric Scholarship",
+    "description": "This scheme under Education sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/pre-matric-scholarship",
+    "criteria": {
+      "minAge": 8,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "sc",
+        "general",
+        "obc",
+        "st"
+      ],
+      "states": [
+        "punjab",
+        "uttar-pradesh",
+        "tamil-nadu",
+        "madhya-pradesh",
+        "gujarat",
+        "odisha",
+        "karnataka",
+        "west-bengal",
+        "chhattisgarh"
+      ]
+    }
+  },
+  {
+    "name": "Pre-Matric Scholarship",
+    "description": "This scheme under Education sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/pre-matric-scholarship",
+    "criteria": {
+      "minAge": 23,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "sc",
+        "others",
+        "obc"
+      ],
+      "states": [
+        "chhattisgarh",
+        "assam",
+        "delhi",
+        "jammu-kashmir",
+        "bihar",
+        "kerala",
+        "rajasthan"
+      ]
+    }
+  },
+  {
+    "name": "Ayushman Bharat",
+    "description": "This scheme under Health sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/ayushman-bharat",
+    "criteria": {
+      "minAge": 19,
+      "maxIncome": 200000,
+      "eligibleCastes": [
+        "st"
+      ],
+      "states": [
+        "madhya-pradesh",
+        "assam",
+        "maharashtra",
+        "kerala",
+        "tamil-nadu",
+        "uttar-pradesh",
+        "west-bengal",
+        "haryana"
+      ]
+    }
+  },
+  {
+    "name": "Startup India",
+    "description": "This scheme under Employment sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/startup-india",
+    "criteria": {
+      "minAge": 28,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "st"
+      ],
+      "states": [
+        "kerala",
+        "west-bengal",
+        "chhattisgarh",
+        "tamil-nadu",
+        "rajasthan",
+        "odisha",
+        "maharashtra"
+      ]
+    }
+  },
+  {
+    "name": "AICTE Pragati Yojana",
+    "description": "This scheme under Education sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/aicte-pragati-yojana",
+    "criteria": {
+      "minAge": 17,
+      "maxIncome": 1000000,
+      "eligibleCastes": [
+        "others"
+      ],
+      "states": [
+        "haryana",
+        "west-bengal",
+        "uttar-pradesh",
+        "andhra-pradesh",
+        "maharashtra",
+        "punjab",
+        "jharkhand",
+        "kerala",
+        "gujarat"
+      ]
+    }
+  },
+  {
+    "name": "Ujjwala Yojana",
+    "description": "This scheme under Women-Child sector aims to support low-income individuals.",
+    "link": "https://gov.in/schemes/ujjwala-yojana",
+    "criteria": {
+      "minAge": 25,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "others",
+        "st"
+      ],
+      "states": [
+        "uttar-pradesh",
+        "telangana",
+        "jammu-kashmir",
+        "west-bengal",
+        "karnataka",
+        "odisha",
+        "chhattisgarh",
+        "delhi"
+      ]
+    }
+  },
+  {
+    "name": "PMEGP",
+    "description": "This scheme under Employment sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/pmegp",
+    "criteria": {
+      "minAge": 34,
+      "maxIncome": 800000,
+      "eligibleCastes": [
+        "sc",
+        "others",
+        "obc"
+      ],
+      "states": [
+        "maharashtra",
+        "telangana",
+        "kerala",
+        "west-bengal",
+        "assam"
+      ]
+    }
+  },
+  {
+    "name": "Pre-Matric Scholarship",
+    "description": "This scheme under Education sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/pre-matric-scholarship",
+    "criteria": {
+      "minAge": 22,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "obc",
+        "sc"
+      ],
+      "states": [
+        "bihar",
+        "chhattisgarh",
+        "tamil-nadu",
+        "delhi",
+        "jammu-kashmir",
+        "gujarat",
+        "odisha",
+        "kerala",
+        "west-bengal"
+      ]
+    }
+  },
+  {
+    "name": "MGNREGA",
+    "description": "This scheme under Employment sector aims to support rural individuals.",
+    "link": "https://gov.in/schemes/mgnrega",
+    "criteria": {
+      "minAge": 37,
+      "maxIncome": 500000,
+      "eligibleCastes": [
+        "general",
+        "others",
+        "st"
+      ],
+      "states": [
+        "bihar",
+        "andhra-pradesh",
+        "odisha",
+        "madhya-pradesh",
+        "haryana"
+      ]
+    }
+  },
+  {
+    "name": "PMEGP",
+    "description": "This scheme under Employment sector aims to support marginalized individuals.",
+    "link": "https://gov.in/schemes/pmegp",
+    "criteria": {
+      "minAge": 58,
+      "maxIncome": 300000,
+      "eligibleCastes": [
+        "sc"
+      ],
+      "states": [
+        "jharkhand",
+        "jammu-kashmir",
+        "telangana",
+        "madhya-pradesh",
+        "odisha",
+        "assam",
+        "delhi",
+        "uttar-pradesh"
+      ]
+    }
+  }
+]

@@ -14,44 +14,38 @@ function submitDetails() {
   const state = document.getElementById('state').value;
 
   const results = document.getElementById('results');
-  const loading = document.getElementById('loading');
-  results.innerHTML = '';
-  loading.style.display = 'block';
+  results.innerHTML = '<div id="loading" style="text-align:center;color:#1565C0;">Loading...</div>';
 
   // Validate inputs
   const errors = validateForm(age, income, caste, state);
   if (errors.length > 0) {
-    loading.style.display = 'none';
     results.innerHTML = `<div style="width:100%;text-align:center;color:#e53935;">${errors.join('<br>')}</div>`;
     return;
   }
 
-  fetch('http://localhost:5000/api/schemes', {
+  // Save user data to backend
+  fetch('/userdata', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ age, income, caste, state })
   })
   .then(res => res.json())
-  .then(data => {
-    loading.style.display = 'none';
-    if (!data.length) {
-      results.innerHTML = '<div style="width:100%;text-align:center;color:#888;">No schemes found for your details. Try adjusting your inputs.</div>';
-      return;
-    }
-    data.forEach(scheme => {
-      const card = document.createElement('div');
-      card.className = 'scheme-card';
-      card.innerHTML = `
-        <h3><i class="fas fa-gift" style="margin-right:8px;color:var(--accent-color);"></i>${scheme.name}</h3>
-        <p>${scheme.description}</p>
-        <a href="${scheme.link}" target="_blank" aria-label="Apply for ${scheme.name}">Apply Now</a>
-      `;
-      results.appendChild(card);
-    });
+  .then(() => {
+    // Optionally, fetch schemes or just show a success message
+    results.innerHTML = '<div style="width:100%;text-align:center;color:green;">Data submitted successfully!</div>';
+    // Clear form fields after successful submission
+    document.getElementById('age').value = '';
+    document.getElementById('income').value = '';
+    document.getElementById('caste').value = '';
+    document.getElementById('state').value = '';
   })
   .catch(() => {
-    loading.style.display = 'none';
-    results.innerHTML = '<div style="width:100%;text-align:center;color:#e53935;">Error fetching schemes. Please try again later.</div>';
+    results.innerHTML = '<div style="width:100%;text-align:center;color:#e53935;">Error saving data. Please try again later.</div>';
+    // Still clear form fields to allow retry
+    document.getElementById('age').value = '';
+    document.getElementById('income').value = '';
+    document.getElementById('caste').value = '';
+    document.getElementById('state').value = '';
   });
 }
 
